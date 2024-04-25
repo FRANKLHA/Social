@@ -1,0 +1,78 @@
+/* Importa la fuente 'Inter' desde Google Fonts con pesos que van de 100 a 900 y establece su visualización. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Establece estilos básicos para todos los elementos del documento. */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Establece estilos para el cuerpo del documento. */
+body{
+    /* Establece el color de fondo, el ancho y la altura del cuerpo. */
+    background-color: hsl(0, 0%, 8%);
+    width: 100vw;
+    height: 100vh;
+    /* Centra los elementos secundarios horizontal y verticalmente. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Establece la fuente para el cuerpo del documento. */
+    font-family: 'Inter', sans-serif;
+}
+
+/* Establece estilos para los elementos div. */
+div{
+    /* Establece el color de fondo, el ancho, la altura y el radio de borde del div. */
+    background-color: hsl(0, 0%, 12%);
+    width: 340px;
+    height: 650px;
+    border-radius: 15px;
+    /* Organiza los elementos secundarios en columnas y distribuye el espacio entre ellos. */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* Establece el color de texto del div. */
+    color: hsl(0, 0%, 100%);
+}
+
+/* Establece estilos para las imágenes. */
+img{
+    /* Establece el ancho, la altura y el radio de borde de las imágenes. */
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+/* Establece estilos para los encabezados h2. */
+h2{
+    /* Establece el color de texto de los encabezados h2 y su tamaño de fuente. */
+    color: hsl(75, 94%, 57%);
+    font-size: 16px;
+}
+
+/* Establece estilos para los enlaces. */
+a{
+    /* Establece el color de fondo, el ancho, la altura, el radio de borde y el color de texto de los enlaces. */
+    background-color: hsl(0, 0%, 20%);
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    /* Centra el texto horizontal y verticalmente dentro de los enlaces. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Establece estilos para los enlaces cuando se pasa el cursor sobre ellos. */
+a:hover{
+    /* Cambia el color de fondo y el color de texto de los enlaces al pasar el cursor. */
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    /* Cambia el cursor al pasar sobre los enlaces. */
+    cursor: pointer;
+}
